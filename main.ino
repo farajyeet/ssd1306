@@ -49,10 +49,6 @@ void setup() {
   display.display();      // Show initial text
   delay(100);
 
- 
-
-  
-
   if (pulseSensor.begin()) {
     Serial.println("Pulse sensörü objesini yarattık."); 
   } 
@@ -60,8 +56,6 @@ void setup() {
 }
 
 void loop() {
-
-  
 
   // put your main code here, to run repeatedly:
 
